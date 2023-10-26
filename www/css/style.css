@@ -76,10 +76,11 @@
 
     #btnC {
         position:absolute; top:380px; left:70%; width:28%; height:60px; 
+        background-color: greenyellow;
     }
 
     #btnD {
-        position:absolute; top:450px; left:70%; width:28%; height:60px; 
+        position:absolute; top:450px; left:75%; width:20%; height:40px; 
     }
     
     #minute {
