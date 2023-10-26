@@ -214,6 +214,7 @@
         
         if(rest<=0){
             active = false;
+            $("#end").html("時間になりました");
             alarm();
         }
     } 
@@ -222,9 +223,11 @@
 </head>
 <body>
     <canvas id="mycanvas" width="200" height="200">Test</canvas>
-
+    <!--
     <div id="minuteStr">〇</div>
     <div id="secondStr">〇</div>
+    -->
+    <div id="end"></div>
 
     <div id="remain">Remaining time</div>
     <div id="time">Time</div>
