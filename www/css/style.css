@@ -92,5 +92,15 @@
         font-size: 30px;
         position:absolute; top:450px; left:180px; width:80px; height:40px;   
     }
+
+    #minuteUI {
+        font-size: 30px;
+        position:absolute; top:500px; left:110px; width:80px; height:40px;   
+    }
+
+    #secondUI {
+        font-size: 30px;
+        position:absolute; top:500px; left:230px; width:80px; height:40px;   
+    }
     
     input[type=number] {text-align: right;}
